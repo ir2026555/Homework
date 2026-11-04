@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.position-relative {
+  position: relative;
+}
+
+.header__green-big-star {
+  /* Vector */
+  right: -608px;
+  top: -333.46px;
+  position: absolute;
+}
+.header-index-background {
+  background-color: rgb(225, 255, 143);
+  height: 710px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.header__mini-star-1 {
+  position: absolute;
+  top: 69px;
+  left: 36px;
+}
+.header__mini-star-2 {
+  position: absolute;
+  top: 568px;
+  left: 893px;
+}
+.header__green-mini-star-2 {
+  width: 37px;
+  height: 37px;
+  top: 538px;
+  left: 828px;
+  position: absolute;
+}
+.header__green-mini-star-1 {
+  position: absolute;
+  top: 94px;
+  left: -61.5px;
+}
+.header__line-1 {
+  left: 734px;
+  top: -10px;
+  position: absolute;
+}
+.header__line-2 {
+  position: absolute;
+  top: 254px;
+  left: 947px;
+}
+.header__line-3 {
+  position: absolute;
+  left: 1105px;
+  top: 379px;
+}
+.header__line-4 {
+  position: absolute;
+  top: 663px;
+  left: 1225px;
+}
+.header__triangle {
+  position: absolute;
+  top: 468px;
+  left: 1127px;
+}
+.header-display {
+  height: 90px;
+  background-color: rgb(188, 236, 48);
+  bottom: 10px;
+}
+.header__title-index {
+  padding-top: 196px;
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+}
+.header__description-index {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  width: 720px;
+  padding-top: 24px;
+}
+.header__button-index {
+  width: 247px;
+  height: 66px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 28px 16px 28px;
+  box-sizing: border-box;
+  border: 1px solid rgb(32, 32, 39);
+  border-radius: 60px;
+  background: rgb(32, 32, 39);
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 141.69%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 48px;
+}
+.header__button-index:hover {
+  color: black;
+  background-color: white;
+}
+
+.about-games-background {
+  height: 1470px;
+  background: rgb(32, 32, 39);
+}
+.about-games__title {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  padding-top: 94px;
+}
+.about-games__description {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 24px;
+  padding-bottom: 72px;
+}
+.about-games__number {
+  border-radius: 52.58px;
+  background: rgb(247, 247, 247);
+  width: 108px;
+  height: 36px;
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 110%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  margin-left: 32px;
+}
+.about-games__subtitle {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  margin-top: 16px;
+  margin-left: 32px;
+}
+.about-games__cards {
+  display: flex;
+  gap: 32px;
+  z-index: 2;
+  position: relative;
+}
+.about-games__cards-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.about-games__green-star-1 {
+  position: absolute;
+  z-index: 1;
+  right: -235px;
+  top: -270px;
+  width: 584.72px;
+  height: 584.72px;
+}
+.about-games__green-star-2 {
+  position: absolute;
+  left: -91px;
+  top: 406px;
+}
+.about-games__green-star-3 {
+  position: absolute;
+  left: -74px;
+  top: 455px;
+}
+.about-games__card {
+  border-radius: 30px;
+  box-shadow: 0px 12.61px 42.2511901855px -7.57px rgba(0, 0, 0, 0.13);
+  background: rgb(255, 255, 255);
+}
+.about-games__card:hover {
+  transform: scale(1.1);
+}
+.about-games__card-1 {
+  width: 378px;
+  height: 473px;
+}
+.about-games__card-2 {
+  width: 378px;
+  height: 512px;
+}
+.about-games__card-3 {
+  width: 378px;
+  height: 551px;
+}
+
+.mini-game__title {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  padding-top: 46px;
+  padding-bottom: 72px;
+}
+.mini-game__background {
+  height: 3500px;
+  background: rgb(32, 32, 39);
+}
+.mini-game__cards {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+.mini-game__green-star-1 {
+  position: absolute;
+  top: -81px;
+  left: 1158px;
+}
+.mini-game__green-star-2 {
+  position: absolute;
+  left: 1201px;
+  top: -64px;
+}
+.mini-game__green-star-3 {
+  position: absolute;
+  top: 10px;
+  left: 1200px;
+}
+.mini-game__green-star-4 {
+  position: absolute;
+  top: 58px;
+  left: 1130px;
+}
+.mini-game__card {
+  padding: 48px;
+}
+.mini-game__card-title {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+}
+.mini-game__card-background {
+  width: 1200px;
+  height: 500px;
+  border-radius: 30px;
+  box-shadow: 0px 20px 67px -12px rgba(0, 0, 0, 0.13);
+  background: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.mini-game__card-img {
+  width: 600px;
+  height: 500px;
+  border-radius: 30px;
+}
+.mini-game__card-description {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-style: Regular;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 24px;
+}
+.mini-game__card-link {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 141.69%;
+  width: 247px;
+  height: 66px;
+  border-radius: 60px;
+  background: rgb(32, 32, 39);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 36px;
+}
+.mini-game__card-link:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid rgb(32, 32, 39);
+}
+
+.footer-title {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  display: flex;
+  height: 150px;
+  background: rgb(189, 237, 53);
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
