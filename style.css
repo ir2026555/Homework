@@ -308,6 +308,7 @@
   align-items: center;
   text-decoration: none;
   margin-top: 36px;
+  cursor: pointer;
 }
 .mini-game__card-link:hover {
   color: black;
