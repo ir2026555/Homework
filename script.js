@@ -192,3 +192,44 @@ function startEasyQuiz() {
     indexEasyQuiz();
     console.log('Игра завершена!');
 }
+
+function getComputerChoice() {
+    const choices = ["камень", "ножницы", "бумага"];
+    const randomIndex = Math.floor(Math.random() * choices.length);
+    return choices[randomIndex];
+}
+
+function determineWinner(userChoice, computerChoice) {
+    if (userChoice === computerChoice) {
+        return "Ничья! Вы выбрали одинаковый вариант.";
+    }
+    
+    if (
+        (userChoice === "камень" && computerChoice === "ножницы") ||
+        (userChoice === "ножницы" && computerChoice === "бумага") ||
+        (userChoice === "бумага" && computerChoice === "камень")
+    ) {
+        return "Вы победили!";
+    }
+    
+    return "Компьютер победил!";
+}
+
+function startRockPaperScissors() {
+    
+    const userChoice = prompt("Выберите: камень, ножницы или бумага").toLowerCase();
+    
+    if (!["камень", "ножницы", "бумага"].includes(userChoice)) {
+        return alert("Неверный ввод! Пожалуйста, выберите камень, ножницы или бумагу.");
+    }
+    
+    const computerChoice = getComputerChoice();
+   
+    const result = determineWinner(userChoice, computerChoice);
+    
+    alert(`
+Ваш выбор: ${userChoice}
+Выбор компьютера: ${computerChoice}
+Результат: ${result}
+`);
+}
