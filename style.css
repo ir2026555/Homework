@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+.body {
+  background-color: rgb(32, 32, 39);
+}
+
 .center {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
@@ -116,11 +120,11 @@
 .header__button-index:hover {
   color: black;
   background-color: white;
+  transition: background-color 0.5s ease;
 }
 
 .about-games-background {
   height: 1470px;
-  background: rgb(32, 32, 39);
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -206,6 +210,7 @@
 }
 .about-games__card:hover {
   transform: scale(1.1);
+  transition: transform 0.5s ease;
 }
 .about-games__card-1 {
   width: 378px;
@@ -231,7 +236,6 @@
 }
 .mini-game-background {
   height: 3500px;
-  background: rgb(32, 32, 39);
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -314,6 +318,7 @@
   color: black;
   background-color: white;
   border: 1px solid rgb(32, 32, 39);
+  transition: background-color 0.5s ease;
 }
 
 .footer-title {
@@ -576,7 +581,6 @@
     box-sizing: border-box;
     border: 1px solid rgb(32, 32, 39);
     border-radius: 60px;
-    background: rgb(32, 32, 39);
     color: rgb(255, 255, 255);
     font-family: "Montserrat";
     font-style: SemiBold;

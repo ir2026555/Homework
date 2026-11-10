@@ -145,7 +145,7 @@ function startFlipTheText() {
     console.log('Игра завершена!');
 }
 
-function startEasyQuiz() {
+function startSimpleQuiz() {
     const quiz = [
         {
             question: "Какой цвет небо?",
@@ -166,7 +166,7 @@ function startEasyQuiz() {
 
     let score = 0;
 
-    function indexEasyQuiz() {
+    function indexSimpleQuiz() {
         for (let i = 0; i < quiz.length; i++) {
             const question = quiz[i];
             
@@ -189,7 +189,7 @@ function startEasyQuiz() {
         alert(`Викторина завершена!\nВы правильно ответили на ${score} из ${quiz.length} вопросов.`);
     }
 
-    indexEasyQuiz();
+    indexSimpleQuiz();
     console.log('Игра завершена!');
 }
 
@@ -232,4 +232,15 @@ function startRockPaperScissors() {
 Выбор компьютера: ${computerChoice}
 Результат: ${result}
 `);
+}
+
+function startRandomColorGenerator() {
+  const r = Math.floor(Math.random() * 256);
+  const g = Math.floor(Math.random() * 256);
+  const b = Math.floor(Math.random() * 256);
+  return `rgb(${r}, ${g}, ${b})`;
+}
+
+function changeBackgroundColor() {
+  document.body.style.backgroundColor = startRandomColorGenerator();
 }
