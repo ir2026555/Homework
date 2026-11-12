@@ -2,6 +2,15 @@
     margin: 0;
 }
 
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
 .body{
     background-color: rgba(32, 32, 39, 1);
 }
@@ -95,6 +104,41 @@
         height: 90px;
         background-color: rgba(188, 236, 48, 1);
         bottom: 10px;
+        width: 100%;
+        overflow: hidden;
+        color: #ffffff;
+        display: flex;
+        white-space: nowrap;
+        
+        &-animation{
+            display: flex;
+            flex-shrink: 0;
+            animation: scroll-left 15s linear infinite;
+            align-items: center;
+
+            &-text{
+                &-text{
+                    display: inline;
+                    position: relative;
+                    top: -5px;
+                    color: rgba(32, 32, 39, 1);
+                    font-family: "Montserrat";
+                    font-style: Bold;
+                    font-size: 30px;
+                    font-weight: 700;
+                    line-height: 110%;
+                    letter-spacing: 4%;
+                    text-transform: uppercase;
+                }
+
+                &-img{
+                    position: relative;
+                    top: 2px;
+                    padding-left: 51px;
+                    padding-right: 51px;
+                }
+            }
+        }
     }
 
     &__title-index{
@@ -392,6 +436,8 @@
     background: rgba(189, 237, 53, 1);
     align-items: center;
     justify-content: center;
+    font-style: SemiBold;
+    letter-spacing: 0px;
 }
 
 @media (max-width: 1250px) {
@@ -496,6 +542,25 @@
 
 
     .header{
+
+        &-display{
+            &-animation{
+                &-text{
+                    &-text{
+                        top: -3px;
+                        font-size: 16px;
+                       }
+                    &-img{
+                        top: 2px;
+                        padding-left: 27.5px;
+                        padding-right: 27.5px;
+                        width: 19.5px;
+                        height: 19.5px;
+                    }
+                }
+            }
+        }
+
         &-index-background{
             display: flex;
             justify-content: center;
@@ -707,5 +772,9 @@
 
     .footer-title{
         height: 100px;
+        font-style: SemiBold;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
     }
 }
